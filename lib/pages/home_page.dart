@@ -17,6 +17,9 @@ class _HomePageState extends State<HomePage> {
   String text = "Open Details";
 
   _callsDetailsPage() {
+    //This fuction opens details page.
+
+
     Navigator.of(context).push(
         MaterialPageRoute(builder: (BuildContext context) {
           return DetailsPage();
@@ -58,6 +61,7 @@ class _HomePageState extends State<HomePage> {
           color: Colors.blue,
             onPressed:(){
               _callsDetailsPage4();
+
             },
 
         child: Text(text),
